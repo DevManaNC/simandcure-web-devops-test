@@ -1,0 +1,25 @@
+{
+  "name": "recruitment-test-webdev-devops",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "npm run lint --workspaces",
+    "prettier": "npm run prettier --workspaces",
+    "ci": "gitlab-ci-local"
+  },
+  "author": {
+    "name": "Sim&Cure",
+    "url": "https://sim-and-cure.com/"
+  },
+  "license": "ISC",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "eslint": "^8.50.0",
+    "gitlab-ci-local": "^4.53.0",
+    "prettier": "^3.3.3"
+  }
+}
